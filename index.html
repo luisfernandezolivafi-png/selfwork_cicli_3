@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selfwork Cicli 3</title>
+</head>
+<body>
+
+    <script>
+        let scelta;
+
+        do {
+            scelta = Number(prompt("Scegli una bevanda: 1 = acqua, 2 = coca cola, 3 = birra"));
+        } while (scelta !== 1 && scelta !== 2 && scelta !== 3);
+
+        switch (scelta) {
+            case 1:
+                console.log("È stata selezionata l'acqua");
+                break;
+            case 2:
+                console.log("È stata selezionata coca cola");
+                break;
+            case 3:
+                console.log("È stata selezionata birra");
+                break;
+        }
+    </script>
+</body>
+</html>
